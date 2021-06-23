@@ -1,3 +1,124 @@
- i {
-     color: red;
- }
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*Barra superior de descuentos*/
+.nav_top {
+    background-color: #1CD1B0;
+    height: 38px;
+    margin-bottom: 0px;
+}
+
+.nav_top p {
+    padding: 12px 0px 0px 20px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+/*Barra de navegacion*/
+
+nav {
+    background-color: #00669F;
+    height: 101px;
+    margin-top: 0px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    margin: 0px;
+    padding:28px 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+/*Secciones de las tarjetas*/
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 154px 32px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    justify-content: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+i {
+    color:#CC2424;
+    font-size: 30px; /*tamaño del icono se pone como el tamaño de fuente*/
+    position: absolute;
+    top: 15px;
+    left: 21px;
+
+}
+
+/*para hacer una imagen redonda en CSS*/
+.perfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    position: absolute;
+    top: 128px;
+    right: 90px;
+}
+
+.card_text {
+    margin: 74px 16px 0px 16px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card_text p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+button {
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+}
+
+.ver_mas {
+    margin: 37px 86px 18px 86px;
+    
+
+}
+
+
+footer{
+    background-color: #00669F;
+    color: white;
+    height: 51px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px;
+}
