@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto', sans-serif;
+
 }
 /*Barra superior de descuentos*/
 .nav_top {
@@ -38,8 +39,10 @@ h1 {
 
 .contenedor {
     display: flex;
-    justify-content: space-evenly;
-    margin: 154px 32px;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 3rem 1rem;
+    flex-wrap: wrap;
     
 }
 
@@ -47,10 +50,16 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 300px;
+    height: 532px;
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: relative;
-    justify-content: center;
+    position: relative; /*buscar motivo de relative*/
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin: 2em;
+}
+
+.fondo {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
@@ -68,12 +77,13 @@ i {
 .perfil{
     width: 120px;
     height: 120px;
-    border-radius: 60px;
+    border-radius: 50%; /* para que se ajustable con %*/
     position: absolute;
     top: 128px;
     right: 90px;
 }
 
+/*seccion del texto de la tarjeta*/
 .card_text {
     margin: 74px 16px 0px 16px;
 }
@@ -94,6 +104,7 @@ h2 {
     color: #333333;
 }
 
+/*estilos para el boton*/
 button {
     width: 128.78px;
     height: 48.52px;
@@ -106,13 +117,13 @@ button {
     border: none;
 }
 
+/* no me tomaba el margen en el <button> asi que por eso llame a la clase que le habiamos puesto*/
 .ver_mas {
-    margin: 37px 86px 18px 86px;
-    
-
+    margin: 18px 86px 18px 86px;
+    position: ;
 }
 
-
+/*seccion footer*/
 footer{
     background-color: #00669F;
     color: white;
