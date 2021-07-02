@@ -85,7 +85,7 @@ i {
 
 /*seccion del texto de la tarjeta*/
 .card_text {
-    margin: 74px 16px 0px 16px;
+    margin: 60px 16px 0px 16px;
 }
 
 h2 {
@@ -94,14 +94,16 @@ h2 {
     font-weight: normal;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.3rem;
 }
 
 .card_text p {
     font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.1rem;
     color: #333333;
+    text-align:justify;
+    margin: 0px 10px;
 }
 
 /*estilos para el boton*/
@@ -120,7 +122,8 @@ button {
 /* no me tomaba el margen en el <button> asi que por eso llame a la clase que le habiamos puesto*/
 .ver_mas {
     margin: 18px 86px 18px 86px;
-    position: ;
+    position:absolute;
+    bottom: 0.5rem;
 }
 
 /*seccion footer*/
